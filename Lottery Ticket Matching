@@ -1,0 +1,9 @@
+winning = {3, 7, 15, 21, 28}
+
+ticket = {7, 15, 18, 28, 35}
+
+print(winning & ticket)
+
+Output
+
+{28, 15, 7}
