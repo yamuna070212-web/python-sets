@@ -1,0 +1,8 @@
+word = "madam"
+
+if len(set(word)) <= len(word):
+    print(word == word[::-1])
+
+Output
+
+True
