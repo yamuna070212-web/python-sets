@@ -1,0 +1,7 @@
+result = A | B
+
+print(result)
+
+Output
+
+{1, 2, 3, 4, 5}
