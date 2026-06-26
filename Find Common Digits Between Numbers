@@ -1,0 +1,10 @@
+num1 = "123456"
+num2 = "456789"
+
+common = set(num1) & set(num2)
+
+print(common)
+
+Output
+
+{'4', '5', '6'}
