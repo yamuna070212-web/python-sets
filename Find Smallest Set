@@ -1,0 +1,9 @@
+sets = [{1, 2}, {1, 2, 3}, {4}]
+
+smallest = min(sets, key=len)
+
+print(smallest)
+
+Output
+
+{4}
