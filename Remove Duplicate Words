@@ -1,0 +1,9 @@
+sentence = "python java python c java python"
+
+words = set(sentence.split())
+
+print(words)
+
+Output
+
+{'python', 'java', 'c'}
