@@ -1,0 +1,11 @@
+s1 = "python java c"
+
+s2 = "java python html"
+
+common = set(s1.split()) & set(s2.split())
+
+print(common)
+
+Output
+
+{'python', 'java'}
