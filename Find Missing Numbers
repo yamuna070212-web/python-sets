@@ -1,0 +1,9 @@
+numbers = {1, 2, 4, 6, 7}
+
+all_numbers = set(range(1, 8))
+
+print(all_numbers - numbers)
+
+Output
+
+{3, 5}
