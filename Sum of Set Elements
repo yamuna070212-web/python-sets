@@ -1,0 +1,7 @@
+A = {10, 20, 30}
+
+print(sum(A))
+
+Output
+
+60
