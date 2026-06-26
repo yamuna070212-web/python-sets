@@ -1,0 +1,9 @@
+text = "programming"
+
+vowels = {'a', 'e', 'i', 'o', 'u'}
+
+print(set(text) & vowels)
+
+Output
+
+{'a', 'i', 'o'}
