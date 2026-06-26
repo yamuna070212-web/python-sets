@@ -1,0 +1,9 @@
+python_students = {"Ram", "Asha", "John"}
+
+java_students = {"John", "Ravi", "Asha"}
+
+print(python_students & java_students)
+
+Output
+
+{'John', 'Asha'}
