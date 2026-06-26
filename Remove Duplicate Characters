@@ -1,0 +1,7 @@
+text = "programming"
+
+print(set(text))
+
+Output
+
+{'p', 'r', 'o', 'g', 'a', 'm', 'i', 'n'}
