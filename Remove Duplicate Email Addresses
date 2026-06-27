@@ -1,0 +1,14 @@
+emails = [
+    "a@gmail.com",
+    "b@gmail.com",
+    "a@gmail.com",
+    "c@gmail.com"
+]
+
+unique = set(emails)
+
+print(unique)
+
+Output
+
+{'a@gmail.com', 'b@gmail.com', 'c@gmail.com'}
