@@ -1,0 +1,9 @@
+text = "programming"
+
+characters = set(text)
+
+print(len(characters))
+
+Output
+
+8
