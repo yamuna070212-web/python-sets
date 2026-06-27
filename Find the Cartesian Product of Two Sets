@@ -1,0 +1,10 @@
+A = {1, 2, 3}
+B = {"A", "B"}
+
+result = {(x, y) for x in A for y in B}
+
+print(result)
+
+Output
+
+{(1, 'A'), (1, 'B'), (2, 'A'), (2, 'B'), (3, 'A'), (3, 'B')}
