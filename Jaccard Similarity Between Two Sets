@@ -1,0 +1,13 @@
+A = {"python", "java", "c", "html"}
+B = {"python", "java", "css"}
+
+intersection = len(A & B)
+union = len(A | B)
+
+similarity = intersection / union
+
+print(similarity)
+
+Output
+
+0.4
