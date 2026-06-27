@@ -1,0 +1,16 @@
+store1 = {"Pen", "Book", "Bag", "Scale"}
+store2 = {"Book", "Bag", "Pencil", "Eraser"}
+
+common = store1 & store2
+only_store1 = store1 - store2
+only_store2 = store2 - store1
+
+print("Common Items:", common)
+print("Only in Store 1:", only_store1)
+print("Only in Store 2:", only_store2)
+
+Output
+
+Common Items: {'Book', 'Bag'}
+Only in Store 1: {'Pen', 'Scale'}
+Only in Store 2: {'Pencil', 'Eraser'}
