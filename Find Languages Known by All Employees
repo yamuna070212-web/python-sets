@@ -1,0 +1,11 @@
+emp1 = {"Python", "Java", "SQL"}
+emp2 = {"Python", "C", "SQL"}
+emp3 = {"Python", "SQL", "HTML"}
+
+common = emp1 & emp2 & emp3
+
+print(common)
+
+Output
+
+{'Python', 'SQL'}
