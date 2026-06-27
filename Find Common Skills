@@ -1,0 +1,10 @@
+employee1 = {"Python", "SQL", "Git"}
+employee2 = {"Java", "Git", "Python"}
+
+common = employee1 & employee2
+
+print(common)
+
+Output
+
+{'Python', 'Git'}
