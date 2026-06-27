@@ -1,0 +1,9 @@
+A = {10, 25, 40, 15, 32, 9}
+
+even = {x for x in A if x % 2 == 0}
+
+print(max(even))
+
+Output
+
+40
