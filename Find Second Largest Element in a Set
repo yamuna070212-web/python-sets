@@ -1,0 +1,10 @@
+A = {10, 25, 40, 15, 30}
+
+largest = max(A)
+A.remove(largest)
+
+print(max(A))
+
+Output
+
+30
