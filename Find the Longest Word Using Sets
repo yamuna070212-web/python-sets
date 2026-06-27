@@ -1,0 +1,13 @@
+sentence = "Python programming is very interesting"
+
+words = sentence.split()
+
+unique_words = set(words)
+
+longest = max(unique_words, key=len)
+
+print(longest)
+
+Output
+
+programming
