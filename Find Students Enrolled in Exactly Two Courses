@@ -1,0 +1,12 @@
+python = {"Ram", "John", "Asha"}
+java = {"John", "David", "Asha"}
+c = {"John", "Ram"}
+
+result = (python & java) | (python & c) | (java & c)
+result = result - (python & java & c)
+
+print(result)
+
+Output
+
+{'Ram', 'Asha'}
