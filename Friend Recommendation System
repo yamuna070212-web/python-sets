@@ -1,0 +1,10 @@
+user1 = {"Ram", "John", "Asha"}
+user2 = {"John", "David", "Asha", "Ravi"}
+
+recommend = user2 - user1
+
+print(recommend)
+
+Output
+
+{'David', 'Ravi'}
