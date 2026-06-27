@@ -1,0 +1,10 @@
+usernames = ["ram", "asha", "john", "ram", "john"]
+
+if len(usernames) == len(set(usernames)):
+    print("No Duplicates")
+else:
+    print("Duplicate Usernames Found")
+
+Output
+
+Duplicate Usernames Found
