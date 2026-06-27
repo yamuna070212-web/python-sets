@@ -1,0 +1,11 @@
+user1 = {"Ram", "John", "Asha", "David"}
+user2 = {"John", "David", "Ravi"}
+user3 = {"David", "John", "Kiran"}
+
+common = user1 & user2 & user3
+
+print(common)
+
+Output
+
+{'John', 'David'}
