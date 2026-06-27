@@ -1,0 +1,18 @@
+visitors = [
+    "Ram",
+    "John",
+    "Ram",
+    "Asha",
+    "John",
+    "David"
+]
+
+unique = set(visitors)
+
+print(unique)
+print("Total Unique Visitors =", len(unique))
+
+Output
+
+{'Ram', 'John', 'Asha', 'David'}
+Total Unique Visitors = 4
