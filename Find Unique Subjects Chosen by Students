@@ -1,0 +1,11 @@
+student1 = {"Math", "Physics"}
+student2 = {"Chemistry", "Math"}
+student3 = {"Biology", "Physics"}
+
+unique_subjects = student1 | student2 | student3
+
+print(unique_subjects)
+
+Output
+
+{'Math', 'Physics', 'Chemistry', 'Biology'}
