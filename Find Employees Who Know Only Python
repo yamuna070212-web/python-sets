@@ -1,0 +1,10 @@
+python = {"Ram", "John", "Asha"}
+java = {"John", "David"}
+
+only_python = python - java
+
+print(only_python)
+
+Output
+
+{'Ram', 'Asha'}
