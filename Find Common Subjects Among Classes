@@ -1,0 +1,11 @@
+classA = {"Math", "Science", "English"}
+classB = {"Science", "English", "Computer"}
+classC = {"English", "Science", "History"}
+
+common = classA & classB & classC
+
+print(common)
+
+Output
+
+{'Science', 'English'}
