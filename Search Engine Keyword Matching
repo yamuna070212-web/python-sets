@@ -1,0 +1,9 @@
+keywords = {"python", "programming", "tutorial", "code"}
+
+search = {"python", "tutorial"}
+
+print(search.issubset(keywords))
+
+Output
+
+True
