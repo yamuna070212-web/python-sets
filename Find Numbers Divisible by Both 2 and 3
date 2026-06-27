@@ -1,0 +1,9 @@
+A = {2, 3, 6, 12, 15, 18, 20}
+
+result = {x for x in A if x % 2 == 0 and x % 3 == 0}
+
+print(result)
+
+Output
+
+{18, 12, 6}
