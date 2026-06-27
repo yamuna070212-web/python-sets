@@ -1,0 +1,12 @@
+completed = {"Math", "Physics", "Programming"}
+
+required = {"Math", "Programming"}
+
+if required.issubset(completed):
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+Output
+
+Eligible
