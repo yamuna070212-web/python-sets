@@ -1,0 +1,10 @@
+students = {"Ram", "John", "Asha", "David"}
+submitted = {"Ram", "Asha"}
+
+not_submitted = students - submitted
+
+print(not_submitted)
+
+Output
+
+{'John', 'David'}
