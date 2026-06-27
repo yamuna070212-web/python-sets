@@ -1,0 +1,9 @@
+employee = {"Python", "SQL", "Git", "Linux"}
+
+required = {"Python", "SQL"}
+
+print(required <= employee)
+
+Output
+
+True
