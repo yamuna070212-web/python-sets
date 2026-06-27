@@ -1,0 +1,9 @@
+A = {5, 10, 12, 15, 18, 20, 23}
+
+result = {x for x in A if x % 5 != 0}
+
+print(result)
+
+Output
+
+{18, 12, 23}
