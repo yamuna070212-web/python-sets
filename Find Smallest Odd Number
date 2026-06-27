@@ -1,0 +1,9 @@
+A = {10, 25, 41, 15, 32, 9}
+
+odd = {x for x in A if x % 2 != 0}
+
+print(min(odd))
+
+Output
+
+9
