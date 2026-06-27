@@ -1,0 +1,11 @@
+A = {1, 2, 3}
+B = {4, 5, 6}
+
+if A.isdisjoint(B):
+    print("Sets are Disjoint")
+else:
+    print("Sets are Not Disjoint")
+
+Output
+
+Sets are Disjoint
