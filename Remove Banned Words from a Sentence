@@ -1,0 +1,13 @@
+sentence = "python is easy and python is powerful"
+
+words = sentence.split()
+
+banned = {"is", "and"}
+
+filtered = {word for word in words if word not in banned}
+
+print(filtered)
+
+Output
+
+{'easy', 'powerful', 'python'}
