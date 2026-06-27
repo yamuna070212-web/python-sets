@@ -1,0 +1,15 @@
+import math
+
+A = {4, 7, 9, 10, 16, 20, 25}
+
+result = set()
+
+for num in A:
+    if math.isqrt(num) ** 2 == num:
+        result.add(num)
+
+print(result)
+
+Output
+
+{16, 9, 4, 25}
