@@ -1,0 +1,11 @@
+present = {1, 2, 4, 5, 7}
+
+all_students = set(range(1, 8))
+
+absent = all_students - present
+
+print(absent)
+
+Output
+
+{3, 6}
