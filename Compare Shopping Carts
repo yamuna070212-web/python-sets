@@ -1,0 +1,10 @@
+cart1 = {"Milk", "Bread", "Eggs"}
+cart2 = {"Bread", "Butter", "Eggs"}
+
+print("Common:", cart1 & cart2)
+print("Different:", cart1 ^ cart2)
+
+Output
+
+Common: {'Bread', 'Eggs'}
+Different: {'Milk', 'Butter'}
