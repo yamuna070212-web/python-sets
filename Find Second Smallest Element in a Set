@@ -1,0 +1,10 @@
+A = {10, 25, 40, 15, 30}
+
+smallest = min(A)
+A.remove(smallest)
+
+print(min(A))
+
+Output
+
+15
