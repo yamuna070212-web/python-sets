@@ -1,0 +1,13 @@
+import string
+
+text = "abcdefghijklmnopqrstuvwxyz"
+
+letters = set(text)
+
+alphabet = set(string.ascii_lowercase)
+
+print(alphabet - letters)
+
+Output
+
+set()
